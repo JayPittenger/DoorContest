@@ -1,0 +1,90 @@
+<h1 id="page-header">Magnolia Fall Door Decorating Contest!</h1>
+<div id="instructions">
+    <h3>Voting Rules:</h3>
+    <ol>
+        <li>Only one vote per person.</li>
+        <li>You cannot vote for your own door.</li>
+        <li>Voting ends Friday, October 30th.</li>
+    </ol>
+    <h3>The winner will receive a $50 Fred Meyer gift card!</h3>
+    <div id="res-coord">
+        <p>If you have any issues using this webpage, contact the Resident Services Coordinator:</p>
+        <p>503-516-3933</p>
+    </div>
+</div>
+
+<p id="winner"></p>
+<!-- New Entry !-->
+<form id="submit-form">
+    <fieldset>
+    <label for="room-num">Please enter your apartment number:</label>
+    <input type="number" name="room-num" id="room-num" min="0" max="509">
+    <div></div>
+    <div>
+        <p>
+            Click on the image of the door with the best decorations! Then, press submit at the bottom of the page.
+        </p>
+    </div>
+
+    <div>
+        <label>
+            <input type="radio" id="photo1" name="photoVote" value="107">
+            <img src="images/107.jpg">
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="radio" id="photo2" name="photoVote" value="111">
+            <img src="images/111.jpg">
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="radio" id="photo3" name="photoVote" value="154">
+            <img src="images/154.jpg">
+        </label> 
+    </div>
+    <div>
+        <label>
+            <input type="radio" id="photo4" name="photoVote" value="210">
+            <img src="images/210.jpg">
+        </label> 
+    </div>
+    <div>
+        <label>
+            <input type="radio" id="photo5" name="photoVote" value="303">
+            <img src="images/303.jpeg">
+        </label> 
+    </div>
+    <div>
+        <label>
+            <input type="radio" id="photo6" name="photoVote" value="410">
+            <img src="images/410.jpg">
+        </label> 
+    </div>
+    <div>
+        <label>
+            <input type="radio" id="photo7" name="photoVote" value="451">
+            <img src="images/451.jpg">
+        </label> 
+    </div>
+    <div>
+        <label>
+            <input type="radio" id="photo8" name="photoVote" value="461">
+            <img src="images/461.jpg">
+        </label> 
+    </div>
+    <div>
+        <label>
+            <input type="radio" id="photo9" name="photoVote" value="501">
+            <img src="images/501.jpg">
+        </label> 
+    </div>
+
+    <div></div>
+    <input type="submit" id="entry-submit">
+    <p id="error-txt" display="none"></p>
+    </fieldset>
+</form>
+
+<script src="voteScript.js"></script>

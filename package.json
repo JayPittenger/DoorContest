@@ -1,0 +1,16 @@
+{
+  "name": "door-decoration-contest",
+  "version": "1.0.0",
+  "description": "Allows voting on best door decoration",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Pittenger",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.6",
+    "mysql": "^2.18.1"
+  }
+}

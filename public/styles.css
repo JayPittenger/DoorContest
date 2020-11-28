@@ -1,0 +1,65 @@
+/*body formatting */
+body {
+    text-align: center;
+    list-style-position: inside;
+    font-size:calc(12px + 1.5vw);
+    background-color: #fff2e6;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    background-color: #663300;
+    color: #fff2e6;
+    border-radius: 25px;
+    font-family: 'Indie Flower', cursive;
+    font-size:calc(72px + 1.5vw);
+}
+
+
+/*image selection */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+[type=radio] + img {
+    cursor: pointer;
+}
+  
+[type=radio]:checked + img {
+    outline: 10px solid #ff6600;
+}
+
+/*image scaling */
+img {
+    padding: 5px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/*form resizing */
+[type=number]{
+    width: 80px;
+    font-size:24px;
+}
+input[type=submit] {
+    width: 20em;  height: 2em;
+    font-size:24px;
+}
+
+/*make contact text smaller */
+#res-coord {
+    font-size:calc(4px + 1.5vw);
+}
+
+/*make error text red */
+#error-txt {
+    color: #ff0000;
+}
+
+/*add space under form so that submit is not at very bottom of page*/
+#submit-form {
+    margin-bottom: 200px;
+}
